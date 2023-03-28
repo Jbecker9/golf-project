@@ -4,7 +4,7 @@ set -o errexit
 
 # Build commands for front end to create the production build
 rm -rf public
-npm install --prefix vite-project/ && npm run build --vite-project/
+npm run build --vite-project/
 cp -a client/build/. public/
 
 # Build commands for back end
