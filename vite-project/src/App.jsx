@@ -24,7 +24,7 @@ function App() {
       </div>
       <h1>Hello + Vite + React</h1>
       <div className="card">
-          count is Hello {count}
+          count is Hello 1 {count}
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
         </p>
