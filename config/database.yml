@@ -81,7 +81,4 @@ test:
 #
 production:
   <<: *default
-  database: golf_project_production
-  username: golf_project
-  password: <%= ENV["GOLF_PROJECT_DATABASE_PASSWORD"] %>
   url: <%= ENV['DATABASE_URL'] %>
